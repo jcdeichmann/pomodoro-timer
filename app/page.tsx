@@ -70,7 +70,7 @@ export default function PomodoroTimer() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-red-500 to-pink-500">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-500 to-emerald-500">
       <div className="bg-white rounded-3xl shadow-2xl p-12 max-w-md w-full">
         <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">
           Pomodoro Timer
@@ -88,7 +88,7 @@ export default function PomodoroTimer() {
         <div className="flex gap-4 justify-center mb-6">
           <button
             onClick={toggleTimer}
-            className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-full transition duration-200 transform hover:scale-105"
+            className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition duration-200 transform hover:scale-105"
           >
             {isActive ? "Pause" : "Start"}
           </button>
